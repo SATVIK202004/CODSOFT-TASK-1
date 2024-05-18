@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SAT Coffee Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to SAT Coffee Shop</h2>
+            <p>Your favorite place to relax and enjoy a cup of coffee.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Espresso</h3>
+                    <p>Rich and creamy espresso.</p>
+                    <p class="price">$3.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with steamed milk and foam.</p>
+                    <p class="price">$4.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte</h3>
+                    <p>Smooth blend of espresso and milk.</p>
+                    <p class="price">$4.50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>SAT Coffee Shop is a cozy place where you can enjoy freshly brewed coffee and delicious pastries. Our mission is to provide a relaxing environment for coffee lovers.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SAT Coffee Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
